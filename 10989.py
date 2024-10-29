@@ -10,7 +10,6 @@ for elem in arr:
 '''
 #1000만개의 숫자를 8MB이하로 저장할 수 없다는 문제.
 
-
 #결국에는 가장 간단하게, pivot보다 작은 거는 왼쪽으로 몰아서 다시 quicksort, pivot보다 큰 것은 오른쪽으로 몰아서 다시 quicksort하는 거라고 생각하면 된다.
 '''
 def quicksort(low, high):
