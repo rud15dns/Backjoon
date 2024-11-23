@@ -74,6 +74,4 @@ for i in range(1, n + 1):
         dfs(i)
         cnt += 1
 
-
-
 print(cnt)
